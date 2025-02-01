@@ -26,3 +26,25 @@ Follow these steps to install and run the project locally:
    ```sh
    git clone https://github.com/steve-237/snapface.git
    cd snapface
+   npm install
+   ng serve
+
+2. Project Structure
+SnapFace/
+├── src/
+│   ├── app/
+│   │   ├── components/   # Reusable components
+│   │   ├── services/     # Application services
+│   │   ├── models/       # Data models
+│   │   ├── app.module.ts # Main module
+│   │   ├── app-routing.module.ts # Routing configuration
+│   ├── assets/           # Static assets
+│   ├── styles/           # Global styles
+├── angular.json          # Angular configuration
+├── package.json          # Dependencies and scripts
+
+3.  Usage
+- Click the "Snap" button to like a post.
+- Click on a post to view details.
+- Use the Angular Router to navigate between pages.
+4.  
