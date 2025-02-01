@@ -24,5 +24,5 @@ Follow these steps to install and run the project locally:
 
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/yourusername/snapface.git
+   git clone https://github.com/steve-237/snapface.git
    cd snapface
