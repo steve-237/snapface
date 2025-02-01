@@ -1,27 +1,28 @@
-# Snapface
+# 📸 SnapFace
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+SnapFace is an Angular project inspired by OpenClassrooms to help developers learn the fundamentals of Angular. The application displays a list of images with a "Snap" button that allows users to like the images.
 
-## Development server
+## 🚀 Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 🖼️ Display a list of face posts with descriptions  
+- 👍 "Snap" a post to increase its score  
+- 🔍 View detailed information about each post  
+- 🔄 Angular routing for smooth navigation  
+- ⚡ Services to manage application state  
 
-## Code scaffolding
+## 🛠️ Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular** (latest version)  
+- **TypeScript**  
+- **RxJS**  
+- **SCSS/CSS** for styling  
+- **Angular CLI** for project management  
 
-## Build
+## 📥 Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Follow these steps to install and run the project locally:
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/yourusername/snapface.git
+   cd snapface
