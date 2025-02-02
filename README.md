@@ -12,39 +12,41 @@ SnapFace is an Angular project inspired by OpenClassrooms to help developers lea
 
 ## 🛠️ Technologies Used
 
-- **Angular** (latest version)  
-- **TypeScript**  
-- **RxJS**  
-- **SCSS/CSS** for styling  
-- **Angular CLI** for project management  
+- 🅰️ **Angular** (latest version)  
+- 🟦 **TypeScript**  
+- 🔄 **RxJS**  
+- 🎨 **SCSS/CSS** for styling  
+- 🛠️ **Angular CLI** for project management  
 
 ## 📥 Installation
 
 Follow these steps to install and run the project locally:
 
-1. Clone the repository:  
+1. 📂 Clone the repository:  
    ```sh
-   git clone https://github.com/steve-237/snapface.git
+   git clone https://github.com/yourusername/snapface.git
    cd snapface
    npm install
    ng serve
+   ```
 
-2. Project Structure
+2. 📁 Project Structure  
+```
 SnapFace/
 ├── src/
 │   ├── app/
-│   │   ├── components/   # Reusable components
-│   │   ├── services/     # Application services
-│   │   ├── models/       # Data models
-│   │   ├── app.module.ts # Main module
-│   │   ├── app-routing.module.ts # Routing configuration
-│   ├── assets/           # Static assets
-│   ├── styles/           # Global styles
-├── angular.json          # Angular configuration
-├── package.json          # Dependencies and scripts
+│   │   ├── components/   # 🎭 Reusable components
+│   │   ├── services/     # 🔧 Application services
+│   │   ├── models/       # 📝 Data models
+│   │   ├── app.module.ts # 📦 Main module
+│   │   ├── app-routing.module.ts # 🛤️ Routing configuration
+│   ├── assets/           # 🖼️ Static assets
+│   ├── styles/           # 🎨 Global styles
+├── angular.json          # ⚙️ Angular configuration
+├── package.json          # 📜 Dependencies and scripts
+```
 
-3.  Usage
-- Click the "Snap" button to like a post.
-- Click on a post to view details.
-- Use the Angular Router to navigate between pages.
-4.  
+3. 🖱️ Usage  
+- 👍 Click the "Snap" button to like a post.  
+- 🔍 Click on a post to view details.  
+- 🚀 Use the Angular Router to navigate between pages.  
