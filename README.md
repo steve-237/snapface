@@ -12,7 +12,7 @@ SnapFace is an Angular project inspired by OpenClassrooms to help developers lea
 
 ## 🛠️ Technologies Used
 
-- 🅰️ **Angular** (latest version)  
+- 🅰️ **Angular** (version 18)  
 - 🟦 **TypeScript**  
 - 🔄 **RxJS**  
 - 🎨 **SCSS/CSS** for styling  
