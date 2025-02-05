@@ -1,4 +1,5 @@
 # 📸 SnapFace
+![image](https://github.com/user-attachments/assets/dbb3f12e-b31b-41fa-b6dc-851f7fcce8d5)
 
 SnapFace is an Angular project inspired by OpenClassrooms to help developers learn the fundamentals of Angular. The application displays a list of images with a "Snap" button that allows users to like the images.
 
