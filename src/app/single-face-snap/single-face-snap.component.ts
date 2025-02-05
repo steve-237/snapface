@@ -33,16 +33,6 @@ export class SingleFaceSnapComponent implements OnInit {
     this.getFaceSnap();
   }
 
-  private prepareInterface() {
-    this.snapButtonText = 'Oh Snap!';
-    this.userHasSnapped = false;
-  }
-
-  private getFaceSnap() {
-    const faceSnapId = this.route.snapshot.params['id'];
-    this.faceSnap = this.faceSnapsService.getFaceSnapById(faceSnapId);
-  }
-
   onSnap() {
     if(!this.userHasSnapped){
       this.faceSnapsService.snapFaceSnapById(this.faceSnap.id, 'snap');
@@ -53,6 +43,16 @@ export class SingleFaceSnapComponent implements OnInit {
       this.userHasSnapped = false;
       this.snapButtonText = 'Oh Snap!';
     }  
+  }
+
+  private prepareInterface() {
+    this.snapButtonText = 'Oh Snap!';
+    this.userHasSnapped = false;
+  }
+
+  private getFaceSnap() {
+    const faceSnapId = this.route.snapshot.params['id'];
+    this.faceSnap = this.faceSnapsService.getFaceSnapById(faceSnapId);
   }
 
 }
